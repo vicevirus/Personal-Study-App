@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Personal Focus App</title>
+    <link href="styles/raleway.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/bulma.css" />
+    <link rel="stylesheet" href="styles/timer.css" />
+    <link rel="stylesheet" href="styles/loader.css" />
+  </head>
+  <body>
+    <center>
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div id="statusbox">
+        <div class="box">
+          <p id="statustext" class="is-size-4">
+          </p>
+        </div>
+      </div>
+
+      <br /><br />
+      <div id="qrcode"></div>
+      
+      <div class="inputs">
+      <div class="hourinput" >
+        <p class="is-size-4">Hour</p>
+        <input class="input is-large" id="hr" min="1" type="number" placeholder="">
+      </div>
+      <br>
+
+      <div class="minuteinput">
+        <p class="is-size-4">Minutes</p>
+        <input class="input is-large" id="minutes" min="1" type="number" placeholder="">
+      </div>
+      
+      
+    </div>
+
+    <br>
+
+    
+      <div id="timer"></div>
+
+      <br><br>
+
+      <div id="timerButton">
+        <button
+          onclick="startTimer()"
+          class="button is-info is-rounded is-large"
+        >
+          Start
+        </button>
+      </div>
+      <br><br><br><br><br><br><br>
+      <div id="logoutButton">
+        <button
+          onclick="logoutWA()"
+          class="button is-danger is-rounded is-normal"
+        >
+          Logout WA
+        </button>
+      </div>
+    </center>
+
+    <script src="qrcode.js"></script>
+
+    <script src="whatsapp.js"></script>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
