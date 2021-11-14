@@ -16,7 +16,7 @@ This is my first javascript electron app after a very long time. It is quite uno
 | <b>Timer display</b>  | <img src="https://raw.githubusercontent.com/vicevirus/PersonalStudyApp/master/thirdpage.png" width="400">|
 
 # Credits
-Electron
-https://github.com/pedroslopez/whatsapp-web.js/
-Jquery
-Other packages in package.json
+Electron <br/>
+https://github.com/pedroslopez/whatsapp-web.js/ <br/>
+Jquery <br/>
+Other packages in package.json <br/>
