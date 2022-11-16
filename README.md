@@ -1,6 +1,6 @@
 # PersonalStudyApp
 
-A simple electron app to set timer for study time and automatically reply to command messages coming from Whatsapp Web.
+A simple electron app to set timer for study time and automatically reply to incoming messages coming from Whatsapp Web.
 
 
 
