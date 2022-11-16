@@ -2,7 +2,6 @@
 
 A simple electron app to set timer for study time and automatically reply to command messages coming from Whatsapp Web.
 
-This is my first javascript electron app after a very long time. It is quite unorganized and you will see a lot of spaghetti code.
 
 
 
